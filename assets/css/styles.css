@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "MartelSans";
+    src: url(../fonts/DMSans_24pt-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Poppins light";
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+.column-1 {
+    margin-top: 4rem;
+}
+
+.column-nav img {
+    display: inline-block;
+    margin-left: 50rem;
+    margin: 10px;
+    margin-top: -30px;
+}
+
+.column-nav {
+    margin-left: 80rem;
+}
+
+.column-title {
+  margin: 10rem;
+  width: 536px;
+  height: 288px;
+
+}
+
+header {
+    border-bottom: 1px solid #e0dfdf;
+}
+
+
+h1 {
+    font-family: "Poppins", serif;
+    font-size: 58px;
+    color: #3F4255;
+    line-height: 64px;
+    font-weight: 300;
+    letter-spacing: 5%;
+    margin-bottom: 35rem;
+    
+}
+
+.para {
+    border: 2px solid #FFE145;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: auto;
+
+}
+
+
+.p1 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.p2 {
+    font-size: 12px;
+}
+
+.principal{
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.column-principal .column-call {
+    display: inline-block;
+    margin-left: 6rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+.button {
+    margin-top: 7rem;
+}
+
+.principal .column-title {
+    display: inline-block;
+}
+
+.salade {
+    width: 532px;
+    height: 606px;
+
+}
+
+.column-call{
+    width: 30%;
+    
+}
+
+h2 {
+    font-family: "Poppins light", serif;
+    color: #3F4255;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 8%;
+    margin: 10px;
+    width: 300;
+    margin-bottom: 2rem;
+
+}
+
+.section-bloc .column-1 {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    
+}
+
+/**column test**/
+
+.row-test{
+    background-color: aqua;
+    display: block;
+}
+ .row-test .column-test {
+    display: inline-block;
+    padding: 2rem 1rem 1rem 0;
+}
